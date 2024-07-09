@@ -12,6 +12,21 @@
           >
             DANCE STUDIO GATE
           </h3>
+          <ul>
+            <li cms-loop cms-content-type="dance-studio-gate">
+              <!-- タイトル -->
+              <h1>{%= dance-studio-gate_title %}</h1>
+
+              <!-- 画像 -->
+              <img data-src="{%= dance-studio-gate_image %}" alt="" />
+
+              <!-- 概要 -->
+              <p>{%= dance-studio-gate_description %}</p>
+
+              <!-- 日付 -->
+              <p>{%= dance-studio-gate_date %}</p>
+            </li>
+          </ul>
         </v-col>
         <v-col cols="12" sm="8">
           <v-slide-group show-arrows draggable="true">
