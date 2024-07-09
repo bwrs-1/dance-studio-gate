@@ -1,19 +1,19 @@
-export { default as SectionsBrands } from '../../components/sections/Brands.vue'
-export { default as SectionsCalloutBlock } from '../../components/sections/CalloutBlock.vue'
-export { default as SectionsFeatures } from '../../components/sections/Features.vue'
-export { default as SectionsHero } from '../../components/sections/Hero.vue'
-export { default as SectionsHeroAlt } from '../../components/sections/HeroAlt.vue'
-export { default as SectionsIntro } from '../../components/sections/Intro.vue'
-export { default as SectionsPricing } from '../../components/sections/Pricing.vue'
-export { default as SectionsTeam } from '../../components/sections/Team.vue'
-export { default as SectionsTestimonials } from '../../components/sections/Testimonials.vue'
-export { default as SectionsTimeline } from '../../components/sections/Timeline.vue'
-export { default as SectionsContactForm } from '../../components/sections/contactForm.vue'
-export { default as SectionsFooterContactForm } from '../../components/sections/footerContactForm.vue'
-export { default as Logo } from '../../components/Logo.vue'
-export { default as FooterTop } from '../../components/footerTop.vue'
-export { default as SiteFooter } from '../../components/siteFooter.vue'
-export { default as SiteHeader } from '../../components/siteHeader.vue'
+export const SectionsBrands = () => import('../../components/sections/Brands.vue' /* webpackChunkName: "components/sections-brands" */).then(c => wrapFunctional(c.default || c))
+export const SectionsCalloutBlock = () => import('../../components/sections/CalloutBlock.vue' /* webpackChunkName: "components/sections-callout-block" */).then(c => wrapFunctional(c.default || c))
+export const SectionsFeatures = () => import('../../components/sections/Features.vue' /* webpackChunkName: "components/sections-features" */).then(c => wrapFunctional(c.default || c))
+export const SectionsHero = () => import('../../components/sections/Hero.vue' /* webpackChunkName: "components/sections-hero" */).then(c => wrapFunctional(c.default || c))
+export const SectionsHeroAlt = () => import('../../components/sections/HeroAlt.vue' /* webpackChunkName: "components/sections-hero-alt" */).then(c => wrapFunctional(c.default || c))
+export const SectionsIntro = () => import('../../components/sections/Intro.vue' /* webpackChunkName: "components/sections-intro" */).then(c => wrapFunctional(c.default || c))
+export const SectionsPricing = () => import('../../components/sections/Pricing.vue' /* webpackChunkName: "components/sections-pricing" */).then(c => wrapFunctional(c.default || c))
+export const SectionsTeam = () => import('../../components/sections/Team.vue' /* webpackChunkName: "components/sections-team" */).then(c => wrapFunctional(c.default || c))
+export const SectionsTestimonials = () => import('../../components/sections/Testimonials.vue' /* webpackChunkName: "components/sections-testimonials" */).then(c => wrapFunctional(c.default || c))
+export const SectionsTimeline = () => import('../../components/sections/Timeline.vue' /* webpackChunkName: "components/sections-timeline" */).then(c => wrapFunctional(c.default || c))
+export const SectionsContactForm = () => import('../../components/sections/contactForm.vue' /* webpackChunkName: "components/sections-contact-form" */).then(c => wrapFunctional(c.default || c))
+export const SectionsFooterContactForm = () => import('../../components/sections/footerContactForm.vue' /* webpackChunkName: "components/sections-footer-contact-form" */).then(c => wrapFunctional(c.default || c))
+export const Logo = () => import('../../components/Logo.vue' /* webpackChunkName: "components/logo" */).then(c => wrapFunctional(c.default || c))
+export const FooterTop = () => import('../../components/footerTop.vue' /* webpackChunkName: "components/footer-top" */).then(c => wrapFunctional(c.default || c))
+export const SiteFooter = () => import('../../components/siteFooter.vue' /* webpackChunkName: "components/site-footer" */).then(c => wrapFunctional(c.default || c))
+export const SiteHeader = () => import('../../components/siteHeader.vue' /* webpackChunkName: "components/site-header" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
