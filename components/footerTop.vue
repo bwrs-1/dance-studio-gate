@@ -14,14 +14,14 @@
             <v-col cols="12">
               <Logo />
             </v-col>
-            <v-col cols="12">
+            <!-- <v-col cols="12">
               <p class="mt-8 text-justify" style="max-width: 400px">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
                 pariatur quidem, quis modi iure nihil commodi suscipit, corporis
                 dicta adipisci, voluptatum quia cupiditate. Nulla minus
                 voluptatum nostrum deleniti, asperiores facere.
               </p>
-            </v-col>
+            </v-col> -->
             <v-col cols="12">
               <v-list two-line class="transparent">
                 <v-list-item>

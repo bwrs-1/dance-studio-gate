@@ -113,41 +113,6 @@ export default {
           to: '/about',
         },
         {
-          icon: 'mdi-tools',
-          title: 'Services',
-          to: '/services',
-          submenu: [
-            {
-              title: 'Services Page',
-              to: '/services',
-            },
-            {
-              title: 'Static Websites',
-              to: '/#',
-            },
-            {
-              title: 'Mobile Applications',
-              to: '/#',
-            },
-            {
-              title: 'Corporate websites',
-              to: '/#',
-            },
-            {
-              title: 'Editorial Sites',
-              to: '/#',
-            },
-            {
-              title: 'Ecommerce and Store',
-              to: '/#',
-            },
-            {
-              title: 'Block Chain Devemopment',
-              to: '/#',
-            },
-          ],
-        },
-        {
           icon: 'mdi-cash-usd',
           title: 'Pricing',
           to: '/pricing',

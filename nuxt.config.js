@@ -111,4 +111,10 @@ export default {
     },
     mode: 'all',
   },
+
+  generate: {
+    fallback: true,
+  },
+
+  watch: ['static'],
 }
