@@ -1,0 +1,118 @@
+exports.ids = [9];
+exports.modules = {
+
+/***/ 232:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VAvatar/VAvatar.js
+var VAvatar = __webpack_require__(56);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VCol.js
+var VCol = __webpack_require__(188);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VContainer.js + 1 modules
+var VContainer = __webpack_require__(193);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VRow.js
+var VRow = __webpack_require__(187);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VSheet/VSheet.js
+var VSheet = __webpack_require__(13);
+
+// CONCATENATED MODULE: ./node_modules/vuetify-loader/lib/loader.js??ref--4!./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--7!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/sections/Team.vue?vue&type=template&id=5c5c135c
+
+
+
+
+
+
+var Teamvue_type_template_id_5c5c135c_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('section', {
+    staticClass: "py-16",
+    class: _vm.$vuetify.theme.dark ? 'grey darken-4' : 'grey lighten-4'
+  }, [_c(VContainer["a" /* default */], {
+    staticClass: "text-center",
+    attrs: {
+      "fluid": ""
+    }
+  }, [_c(VRow["a" /* default */], [_c(VCol["a" /* default */], [_c('h2', {
+    staticClass: "text-h4 text-sm-h3 text-capitalize font-weight-black mb-4"
+  }, [_vm._v("\n          instructor\n        ")]), _vm._v(" "), _c('p', [_vm._v("いい感じの文章を考えて入れる")])])], 1), _vm._v(" "), _c(VRow["a" /* default */], _vm._l(_vm.ourTeam, function (item, i) {
+    return _c(VCol["a" /* default */], {
+      key: `person-${i}`
+    }, [_c(VSheet["a" /* default */], {
+      staticClass: "py-12 px-6",
+      attrs: {
+        "outlined": "",
+        "shaped": ""
+      }
+    }, [_c(VAvatar["a" /* default */], {
+      attrs: {
+        "size": "240"
+      }
+    }, [_c('img', {
+      attrs: {
+        "src": `/team/${item.photo}`,
+        "lazy-src": `team/${item.photo}`,
+        "alt": "John"
+      }
+    })]), _vm._v(" "), _c('div', {
+      staticClass: "text-h5 text-uppercase font-weight-black mt-6 mb-2"
+    }, [_vm._v("\n            " + _vm._s(item.name) + "\n          ")]), _vm._v(" "), _c('div', {
+      staticClass: "text--disabled text-uppercase"
+    }, [_vm._v("\n            " + _vm._s(item.position) + "\n          ")]), _vm._v(" "), _c('div', {
+      staticClass: "text-h6 font-weight-black mt-8"
+    }, [_vm._v(_vm._s(item.phone))]), _vm._v(" "), _c('div', {
+      staticClass: "subtitle-1 mt-3"
+    }, [_vm._v(_vm._s(item.email))])], 1)], 1);
+  }), 1)], 1)], 1);
+};
+var staticRenderFns = [];
+
+// CONCATENATED MODULE: ./components/sections/Team.vue?vue&type=template&id=5c5c135c
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/sections/Team.vue?vue&type=script&lang=js
+/* harmony default export */ var Teamvue_type_script_lang_js = ({
+  props: {
+    ourTeam: {
+      type: Array,
+      default: () => []
+    }
+  }
+});
+// CONCATENATED MODULE: ./components/sections/Team.vue?vue&type=script&lang=js
+ /* harmony default export */ var sections_Teamvue_type_script_lang_js = (Teamvue_type_script_lang_js); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(10);
+
+// CONCATENATED MODULE: ./components/sections/Team.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  sections_Teamvue_type_script_lang_js,
+  Teamvue_type_template_id_5c5c135c_render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "2c72edf0"
+  
+)
+
+/* harmony default export */ var Team = __webpack_exports__["default"] = (component.exports);
+
+/***/ })
+
+};;
+//# sourceMappingURL=sections-team.js.map

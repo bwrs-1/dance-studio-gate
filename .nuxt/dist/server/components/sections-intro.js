@@ -1,0 +1,169 @@
+exports.ids = [7];
+exports.modules = {
+
+/***/ 234:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VAvatar/VAvatar.js
+var VAvatar = __webpack_require__(56);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VCol.js
+var VCol = __webpack_require__(188);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VContainer.js + 1 modules
+var VContainer = __webpack_require__(193);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VIcon/VIcon.js
+var VIcon = __webpack_require__(53);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VResponsive/VResponsive.js
+var VResponsive = __webpack_require__(49);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VRow.js
+var VRow = __webpack_require__(187);
+
+// CONCATENATED MODULE: ./node_modules/vuetify-loader/lib/loader.js??ref--4!./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--7!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/sections/Intro.vue?vue&type=template&id=57d72e5f
+
+
+
+
+
+
+
+var Introvue_type_template_id_57d72e5f_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('section', {
+    staticClass: "py-16",
+    attrs: {
+      "id": "intro"
+    }
+  }, [_c(VContainer["a" /* default */], [_c(VResponsive["a" /* default */], {
+    staticClass: "max-auto mx-auto text-center",
+    attrs: {
+      "max-width": "600"
+    }
+  }, [_c(VAvatar["a" /* default */], {
+    staticClass: "mb-8",
+    attrs: {
+      "color": "primary",
+      "size": "70"
+    }
+  }, [_c(VIcon["a" /* default */], {
+    attrs: {
+      "x-large": "",
+      "dark": ""
+    }
+  }, [_vm._v("mdi-web")])], 1), _vm._v(" "), _c('h2', {
+    staticClass: "text-h4 text-md-h3 text-center font-weight-black mb-7"
+  }, [_vm._v("\n        大阪 布施 のダンススタジオ\n      ")]), _vm._v(" "), _c('p', {
+    staticClass: "title font-weight-light"
+  }, [_vm._v("\n        ModeVue — is a carefully crafted multi-purpose, responsive, and\n        gorgeous theme. Built with\n        "), _c('strong', [_vm._v("Vue.js")]), _vm._v("\n        and\n        "), _c('strong', [_vm._v("Nuxt.js")]), _vm._v(", it comes with the features you need to\n        quickly start developing your application.\n      ")])], 1), _vm._v(" "), _c(VRow["a" /* default */], {
+    staticClass: "pt-12"
+  }, _vm._l(_vm.cards, function (card) {
+    return _c(VCol["a" /* default */], {
+      key: card.title,
+      attrs: {
+        "cols": "12",
+        "md": "4"
+      }
+    }, [_c(VRow["a" /* default */], {
+      attrs: {
+        "no-gutters": ""
+      }
+    }, [_c(VCol["a" /* default */], {
+      attrs: {
+        "cols": card.callout ? 9 : 12
+      }
+    }, [_c('div', {
+      staticClass: "pr-2"
+    }, [_c('div', {
+      staticClass: "text--disabled",
+      domProps: {
+        "textContent": _vm._s(card.subtitle)
+      }
+    }), _vm._v(" "), _c('h4', {
+      staticClass: "text-uppercase mt-1 mb-4",
+      staticStyle: {
+        "letter-spacing": "0.15em"
+      },
+      domProps: {
+        "textContent": _vm._s(card.title)
+      }
+    }), _vm._v(" "), _c('p', {
+      domProps: {
+        "textContent": _vm._s(card.text)
+      }
+    })])]), _vm._v(" "), card.callout ? _c(VCol["a" /* default */], {
+      attrs: {
+        "cols": "2"
+      }
+    }, [_c('span', {
+      staticClass: "text-h3 grey--text font-weight-bold pr-8",
+      staticStyle: {
+        "opacity": "0.1"
+      }
+    }, [_vm._v(_vm._s(card.callout))])]) : _vm._e()], 1)], 1);
+  }), 1)], 1)], 1);
+};
+var staticRenderFns = [];
+
+// CONCATENATED MODULE: ./components/sections/Intro.vue?vue&type=template&id=57d72e5f
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/sections/Intro.vue?vue&type=script&lang=js
+/* harmony default export */ var Introvue_type_script_lang_js = ({
+  data() {
+    return {
+      cards: [{
+        title: 'Best Productivity',
+        subtitle: 'Professionally developed',
+        text: 'All components and features are developed using the most up-to-date coding practices.',
+        callout: '01'
+      }, {
+        title: 'Fast & optimized',
+        subtitle: 'Performance',
+        text: 'Themes are designed for maximum performance and are semantically structured to maximize SEO.',
+        callout: '02'
+      }, {
+        title: 'Built on Vuetify',
+        subtitle: 'Material Design',
+        text: "Being developed with Vuetify means you have access to all of the framework's available features.",
+        callout: '03'
+      }]
+    };
+  }
+});
+// CONCATENATED MODULE: ./components/sections/Intro.vue?vue&type=script&lang=js
+ /* harmony default export */ var sections_Introvue_type_script_lang_js = (Introvue_type_script_lang_js); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(10);
+
+// CONCATENATED MODULE: ./components/sections/Intro.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  sections_Introvue_type_script_lang_js,
+  Introvue_type_template_id_57d72e5f_render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "ba12fa2e"
+  
+)
+
+/* harmony default export */ var Intro = __webpack_exports__["default"] = (component.exports);
+
+/***/ })
+
+};;
+//# sourceMappingURL=sections-intro.js.map

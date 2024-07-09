@@ -1,0 +1,155 @@
+exports.ids = [4];
+exports.modules = {
+
+/***/ 235:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VAvatar/VAvatar.js
+var VAvatar = __webpack_require__(56);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VBtn/VBtn.js
+var VBtn = __webpack_require__(64);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VCol.js
+var VCol = __webpack_require__(188);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VContainer.js + 1 modules
+var VContainer = __webpack_require__(193);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VIcon/VIcon.js
+var VIcon = __webpack_require__(53);
+
+// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VRow.js
+var VRow = __webpack_require__(187);
+
+// CONCATENATED MODULE: ./node_modules/vuetify-loader/lib/loader.js??ref--4!./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--7!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/sections/Features.vue?vue&type=template&id=3d305e10
+
+
+
+
+
+
+
+var Featuresvue_type_template_id_3d305e10_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('section', {
+    staticClass: "primary darken-1 white--text py-16"
+  }, [_c(VContainer["a" /* default */], [_c(VRow["a" /* default */], [_c(VCol["a" /* default */], {
+    staticClass: "text-center"
+  }, [_c('h2', {
+    staticClass: "text-h4 text-md-h3 text-center font-weight-black"
+  }, [_vm._v("\n          Build your website with this Theme\n        ")]), _vm._v(" "), _c('div', {
+    staticClass: "text-h5 text-md-h4 text-center font-weight-black py-3 mb-10"
+  }, [_vm._v("\n          Purchase now. Only $49!\n        ")])])], 1), _vm._v(" "), _c(VRow["a" /* default */], _vm._l(_vm.cards, function (card, index) {
+    return _c(VCol["a" /* default */], {
+      key: index,
+      staticClass: "text-center",
+      attrs: {
+        "cols": "12",
+        "sm": "4"
+      }
+    }, [_c(VAvatar["a" /* default */], {
+      staticClass: "display-1 white font-weight-bold primary--text mb-5",
+      staticStyle: {
+        "opacity": "1.15"
+      },
+      attrs: {
+        "size": "80"
+      }
+    }, [_vm._v(_vm._s(card.callout))]), _vm._v(" "), _c('div', {
+      staticClass: "title text-uppercase mt-1 mb-4",
+      domProps: {
+        "textContent": _vm._s(card.title)
+      }
+    }), _vm._v(" "), _c('p', {
+      domProps: {
+        "textContent": _vm._s(card.text)
+      }
+    }), _vm._v(" "), _c(VRow["a" /* default */], {
+      attrs: {
+        "no-gutters": ""
+      }
+    }, [_c(VCol["a" /* default */], {
+      attrs: {
+        "cols": "12"
+      }
+    })], 1)], 1);
+  }), 1), _vm._v(" "), _c(VRow["a" /* default */], {
+    attrs: {
+      "no-gutters": ""
+    }
+  }, [_c(VBtn["a" /* default */], {
+    attrs: {
+      "x-large": "",
+      "rounded": "",
+      "color": "white primary--text mx-auto mt-10 px-16"
+    }
+  }, [_c(VIcon["a" /* default */], {
+    attrs: {
+      "dark": "",
+      "left": ""
+    }
+  }, [_vm._v(" mdi-check-bold ")]), _vm._v("Buy It Now\n      ")], 1)], 1)], 1)], 1);
+};
+var staticRenderFns = [];
+
+// CONCATENATED MODULE: ./components/sections/Features.vue?vue&type=template&id=3d305e10
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/sections/Features.vue?vue&type=script&lang=js
+/* harmony default export */ var Featuresvue_type_script_lang_js = ({
+  data() {
+    return {
+      cards: [{
+        title: 'Material Design',
+        subtitle: 'Best Productivity',
+        text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+        callout: '01'
+      }, {
+        title: 'Affordable Prices',
+        subtitle: 'Special Offers',
+        text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+        callout: '02'
+      }, {
+        title: 'Fast Loading',
+        subtitle: 'Income Flow',
+        text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+        callout: '03'
+      }]
+    };
+  }
+});
+// CONCATENATED MODULE: ./components/sections/Features.vue?vue&type=script&lang=js
+ /* harmony default export */ var sections_Featuresvue_type_script_lang_js = (Featuresvue_type_script_lang_js); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(10);
+
+// CONCATENATED MODULE: ./components/sections/Features.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  sections_Featuresvue_type_script_lang_js,
+  Featuresvue_type_template_id_3d305e10_render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "3ffb6a50"
+  
+)
+
+/* harmony default export */ var Features = __webpack_exports__["default"] = (component.exports);
+
+/***/ })
+
+};;
+//# sourceMappingURL=sections-features.js.map
