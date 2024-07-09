@@ -10,7 +10,7 @@
             :class="$vuetify.theme.dark ? 'grey--text' : null"
             class="text-h4 text-center font-weight-light mb-xs-4"
           >
-            OUR SPONSORS
+            DANCE STUDIO GATE
           </h3>
         </v-col>
         <v-col cols="12" sm="8">
