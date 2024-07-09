@@ -46,6 +46,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+
+    '@spearly/nuxt-module'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -101,5 +103,12 @@ export default {
 
   router: {
     base: '/dance-studio-gate/'
+  },
+
+  spearly: {
+    options: {
+      apiKey: 'm70KklJ4HIGKwYb_GYWPU6UIPhpiy0upWrtBVolD_IM',
+    },
+    mode: 'all',
   },
 }

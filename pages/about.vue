@@ -9,7 +9,7 @@
               <h2
                 class="text-h4 text-md-h3 text-center font-weight-black text-capitalize"
               >
-                Who we are?
+                DANCE STUDIO GATE?
               </h2>
               <h3
                 class="text-h4 text-uppercase font-weight-thin text-center my-8"
@@ -125,7 +125,6 @@
             </div>
           </v-col>
         </v-row>
-
         <SectionsTimeline />
       </v-col>
     </v-row>

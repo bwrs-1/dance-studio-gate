@@ -6,7 +6,7 @@
           <v-icon x-large dark>mdi-web</v-icon>
         </v-avatar>
         <h2 class="text-h4 text-md-h3 text-center font-weight-black mb-7">
-          The Perfect Theme for Beginners or Professionals
+          大阪 布施 のダンススタジオ
         </h2>
         <p class="title font-weight-light">
           ModeVue — is a carefully crafted multi-purpose, responsive, and
