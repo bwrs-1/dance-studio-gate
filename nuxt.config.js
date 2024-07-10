@@ -98,11 +98,11 @@ export default {
   },
 
   generate: {
-    dir: 'docs'
+    dir: 'dist'
   },
 
   router: {
-    base: '/dance-studio-gate/'
+    base: 'https://dance-studio-gate.vercel.app/dance-studio-gate'
   },
 
   spearly: {

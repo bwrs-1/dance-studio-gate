@@ -17,7 +17,7 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: '/dance-studio-gate/',
+  base: 'https://dance-studio-gate.vercel.app/dance-studio-gate/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
