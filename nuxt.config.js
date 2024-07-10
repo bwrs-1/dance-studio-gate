@@ -97,13 +97,9 @@ export default {
     },
   },
 
-  generate: {
-    dir: 'dist'
-  },
-
-  router: {
-    base: 'https://dance-studio-gate.vercel.app/dance-studio-gate'
-  },
+  // router: {
+  //   base: 'https://dance-studio-gate.vercel.app/dance-studio-gate'
+  // },
 
   spearly: {
     options: {
@@ -112,9 +108,15 @@ export default {
     mode: 'all',
   },
 
-  generate: {
-    fallback: true,
-  },
-
   watch: ['static'],
+
+  generate: {
+    routes: [
+      '/about',
+      '/pricing',
+      '/contact',
+      '/blog',
+      '/gallery',
+    ]
+  }
 }
