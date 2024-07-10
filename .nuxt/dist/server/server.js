@@ -9414,7 +9414,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "5df57cc9",
-  "35beb5ee"
+  "3146d13f"
   
 )
 
@@ -12182,7 +12182,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "6b2e37b1",
-  "ed4c121c"
+  "5bbfa2a8"
   
 )
 
@@ -12379,7 +12379,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "68279300"
+  "3a8d3eb6"
   
 )
 
@@ -12560,7 +12560,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "149080ec"
+  "3ce8f314"
   
 )
 
@@ -12655,7 +12655,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "04a541f4"
+  "3620debc"
   
 )
 
@@ -14431,12 +14431,12 @@ function shouldScrollToTop(route) {
 
 
 
-const _1ef77650 = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 12).then(__webpack_require__.bind(null, 255)));
-const _26cfdda2 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog */ 13).then(__webpack_require__.bind(null, 254)));
-const _416ff6a3 = () => interopDefault(__webpack_require__.e(/* import() | pages/contact */ 14).then(__webpack_require__.bind(null, 256)));
-const _82373e56 = () => interopDefault(__webpack_require__.e(/* import() | pages/gallery */ 15).then(__webpack_require__.bind(null, 257)));
-const _c841a16e = () => interopDefault(__webpack_require__.e(/* import() | pages/pricing */ 17).then(__webpack_require__.bind(null, 258)));
-const _3eaf5115 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 16).then(__webpack_require__.bind(null, 259)));
+const _3802747b = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 12).then(__webpack_require__.bind(null, 255)));
+const _0e6f21a4 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog */ 13).then(__webpack_require__.bind(null, 254)));
+const _43b4160e = () => interopDefault(__webpack_require__.e(/* import() | pages/contact */ 14).then(__webpack_require__.bind(null, 256)));
+const _7daeff80 = () => interopDefault(__webpack_require__.e(/* import() | pages/gallery */ 15).then(__webpack_require__.bind(null, 257)));
+const _c3b96298 = () => interopDefault(__webpack_require__.e(/* import() | pages/pricing */ 17).then(__webpack_require__.bind(null, 258)));
+const _57ba4f40 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 16).then(__webpack_require__.bind(null, 259)));
 const emptyFn = () => {};
 external_vue_default.a.use(external_vue_router_default.a);
 const routerOptions = {
@@ -14447,27 +14447,27 @@ const routerOptions = {
   scrollBehavior: router_scrollBehavior,
   routes: [{
     path: "/about",
-    component: _1ef77650,
+    component: _3802747b,
     name: "about"
   }, {
     path: "/blog",
-    component: _26cfdda2,
+    component: _0e6f21a4,
     name: "blog"
   }, {
     path: "/contact",
-    component: _416ff6a3,
+    component: _43b4160e,
     name: "contact"
   }, {
     path: "/gallery",
-    component: _82373e56,
+    component: _7daeff80,
     name: "gallery"
   }, {
     path: "/pricing",
-    component: _c841a16e,
+    component: _c3b96298,
     name: "pricing"
   }, {
     path: "/",
-    component: _3eaf5115,
+    component: _57ba4f40,
     name: "index"
   }],
   fallback: false
@@ -14764,7 +14764,7 @@ var error_component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "6c3831f9",
-  "215ab1b2"
+  "406268dd"
   
 )
 
@@ -15030,7 +15030,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
   false,
   nuxt_loading_injectStyles,
   null,
-  "35ae7b92"
+  "1c3fdd70"
   
 )
 
@@ -15151,7 +15151,7 @@ var default_component = Object(componentNormalizer["a" /* default */])(
   false,
   default_injectStyles,
   null,
-  "61393dc0"
+  "1b898d56"
   
 )
 
@@ -15180,7 +15180,7 @@ var error_layout_component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "6e711140"
+  "3b6c16ca"
   
 )
 
@@ -15492,9 +15492,9 @@ external_vue_default.a.use(framework["a" /* default */], {});
   ctx.app.vuetify = vuetify;
   ctx.$vuetify = vuetify.framework;
 });
-// EXTERNAL MODULE: ./.nuxt/cjs.plugin.7345721f.js
-var cjs_plugin_7345721f = __webpack_require__(60);
-var cjs_plugin_7345721f_default = /*#__PURE__*/__webpack_require__.n(cjs_plugin_7345721f);
+// EXTERNAL MODULE: ./.nuxt/cjs.plugin.68c182d4.js
+var cjs_plugin_68c182d4 = __webpack_require__(60);
+var cjs_plugin_68c182d4_default = /*#__PURE__*/__webpack_require__.n(cjs_plugin_68c182d4);
 
 // CONCATENATED MODULE: ./.nuxt/index.js
 
@@ -15512,7 +15512,7 @@ var cjs_plugin_7345721f_default = /*#__PURE__*/__webpack_require__.n(cjs_plugin_
 
  // Source: ./components/plugin.js (mode: 'all')
  // Source: ./vuetify/plugin.js (mode: 'all')
- // Source: ./cjs.plugin.7345721f.js (mode: 'all')
+ // Source: ./cjs.plugin.68c182d4.js (mode: 'all')
 
 // Component: <ClientOnly>
 external_vue_default.a.component(external_vue_client_only_default.a.name, external_vue_client_only_default.a);
@@ -15716,8 +15716,8 @@ async function createApp(ssrContext, config = {}) {
   if (typeof vuetify_plugin === 'function') {
     await vuetify_plugin(app.context, inject);
   }
-  if (typeof cjs_plugin_7345721f_default.a === 'function') {
-    await cjs_plugin_7345721f_default()(app.context, inject);
+  if (typeof cjs_plugin_68c182d4_default.a === 'function') {
+    await cjs_plugin_68c182d4_default()(app.context, inject);
   }
 
   // Lock enablePreview in context

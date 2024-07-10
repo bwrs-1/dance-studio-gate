@@ -4,12 +4,12 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _1ef77650 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _26cfdda2 = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
-const _416ff6a3 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
-const _82373e56 = () => interopDefault(import('../pages/gallery.vue' /* webpackChunkName: "pages/gallery" */))
-const _c841a16e = () => interopDefault(import('../pages/pricing.vue' /* webpackChunkName: "pages/pricing" */))
-const _3eaf5115 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _3802747b = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _0e6f21a4 = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
+const _43b4160e = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _7daeff80 = () => interopDefault(import('../pages/gallery.vue' /* webpackChunkName: "pages/gallery" */))
+const _c3b96298 = () => interopDefault(import('../pages/pricing.vue' /* webpackChunkName: "pages/pricing" */))
+const _57ba4f40 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -24,27 +24,27 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _1ef77650,
+    component: _3802747b,
     name: "about"
   }, {
     path: "/blog",
-    component: _26cfdda2,
+    component: _0e6f21a4,
     name: "blog"
   }, {
     path: "/contact",
-    component: _416ff6a3,
+    component: _43b4160e,
     name: "contact"
   }, {
     path: "/gallery",
-    component: _82373e56,
+    component: _7daeff80,
     name: "gallery"
   }, {
     path: "/pricing",
-    component: _c841a16e,
+    component: _c3b96298,
     name: "pricing"
   }, {
     path: "/",
-    component: _3eaf5115,
+    component: _57ba4f40,
     name: "index"
   }],
 
