@@ -8,7 +8,7 @@
               <h2
                 class="text-h4 text-md-h3 text-center font-weight-black text-capitalize mb-4"
               >
-                The most affordable pricing
+                The most affordable pricinng
               </h2>
 
               <p class="my-10 title">
