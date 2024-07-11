@@ -36,8 +36,7 @@
     <v-app-bar fixed app height="64" elevate-on-scroll color="transparent">
       <v-app-bar-nav-icon class="hidden-md-and-up" @click="drawer = true" />
       <nuxt-link to="/" class="d-flex">
-        <!-- <Logo /> -->
-        <p>DANCE STUDIO GATE</p>
+        <Logo />
       </nuxt-link>
       <v-spacer />
 
