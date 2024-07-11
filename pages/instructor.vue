@@ -6,12 +6,17 @@
       </v-col>
     </v-row>
 
-    <SectionsTeam :our-team="instructor" />
+    <SectionsTeam :our-team="instructor.contents" />
   </section>
 </template>
 
 <script>
 export default {
+  async asyncData(context) {
+    const { $axios } = context
+    const instructor = await $axios.$get('/instructor')
+    return { instructor }
+  },
   data() {
     return {
       heroAlt: [
@@ -88,7 +93,7 @@ export default {
             'We should eat this: Grate, Squash, Corn, and tomatillo Tacos.',
         },
       ],
-      instructor: [
+      instructor_del: [
         {
           name: 'VOLTAGE',
           // position: 'CEO',

@@ -46,12 +46,20 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
-
-    '@spearly/nuxt-module'
+    
+    '@nuxtjs/axios',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
+  modules: [
+  ],
+
+  axios: {
+    baseURL: 'https://dancestudiogate.microcms.io/api/v1/',
+    headers: {
+      'X-MICROCMS-API-KEY': 'QnHOX5kRjeixD309dH726rTObacnvHF25YoE'
+    }
+  },
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
@@ -95,17 +103,7 @@ export default {
         },
       })
     },
-  },
-
-  // router: {
-  //   base: 'https://dance-studio-gate.vercel.app/dance-studio-gate'
-  // },
-
-  spearly: {
-    options: {
-      apiKey: 'm70KklJ4HIGKwYb_GYWPU6UIPhpiy0upWrtBVolD_IM',
-    },
-    mode: 'all',
+    transpile: ['axios']
   },
 
   watch: ['static'],
