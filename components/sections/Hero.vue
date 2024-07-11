@@ -22,7 +22,7 @@
               {{ carousel.heading.toUpperCase() }}
             </div>
             <p class="mb-5 white--text">{{ carousel.subHeading }}</p>
-            <v-btn :x-large="$vuetify.breakpoint.smAndUp" class="my-3 primary"
+            <!-- <v-btn :x-large="$vuetify.breakpoint.smAndUp" class="my-3 primary"
               >Get Started</v-btn
             >
             <span class="mx-2 my-4"></span>
@@ -34,7 +34,7 @@
               dark
               ><v-icon left large color="primary">mdi-play</v-icon>Learn
               More</v-btn
-            >
+            > -->
           </div>
         </v-container>
       </v-carousel-item>
