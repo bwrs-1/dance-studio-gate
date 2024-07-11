@@ -2,7 +2,7 @@
   <div>
     <v-navigation-drawer v-model="drawer" fixed app temporary>
       <v-list dense>
-        <v-list-item-group v-for="(item, i) in items" :key="i" color="primary">
+        <v-list-item-group v-for="(item, i) in items" :key="i" color="gray">
           <v-list-item v-if="!item.submenu" :to="item.to">
             <v-list-item-action>
               <v-icon>{{ item.icon }}</v-icon>
@@ -33,7 +33,15 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar fixed app height="64" elevate-on-scroll color="transparent">
+    <v-app-bar
+      rounded
+      fixed
+      app
+      height="64"
+      elevate-on-scroll
+      color="white"
+      elevation="5"
+    >
       <v-app-bar-nav-icon class="hidden-md-and-up" @click="drawer = true" />
       <nuxt-link to="/" class="d-flex">
         <Logo />
@@ -113,6 +121,11 @@ export default {
           to: '/about',
         },
         {
+          icon: 'mdi-blogger',
+          title: 'Instructor',
+          to: '/instructor',
+        },
+        {
           icon: 'mdi-cash-usd',
           title: 'Pricing',
           to: '/pricing',
@@ -121,11 +134,6 @@ export default {
           icon: 'mdi-folder-image',
           title: 'Gallery',
           to: '/gallery',
-        },
-        {
-          icon: 'mdi-blogger',
-          title: 'Blog',
-          to: '/blog',
         },
         {
           icon: 'mdi-contacts',

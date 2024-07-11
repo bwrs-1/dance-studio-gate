@@ -59,7 +59,6 @@
             </v-col>
           </v-row>
         </v-container>
-        <SectionsTeam :our-team="instructor" />
 
         <v-row no-gutters>
           <v-col cols="12" md="6" align-self="center">
@@ -139,29 +138,6 @@ export default {
         {
           src: 'pexels-moose-photos-1036641.jpg',
           heading: ' About Us ',
-        },
-      ],
-      instructor: [
-        {
-          name: 'VOLTAGE',
-          // position: 'CEO',
-          // phone: '+1 (987) 1625346',
-          // email: 'john@example.com',
-          photo: 'person-1.jpg',
-        },
-        {
-          name: 'THE BABEL',
-          // position: 'instructor',
-          // phone: '+1 (987) 5894684',
-          // email: 'fiona@example.com',
-          photo: 'person-2.jpg',
-        },
-        {
-          name: 'SHOWY ',
-          // position: 'instructor',
-          // phone: '+1 (987) 6982456',
-          // email: 'justin@example.com',
-          photo: 'person-3.jpg',
         },
       ],
     }

@@ -2,19 +2,13 @@
   <section id="intro" class="py-16">
     <v-container>
       <v-responsive class="max-auto mx-auto text-center" max-width="600">
-        <v-avatar color="primary" size="70" class="mb-8">
-          <v-icon x-large dark>mdi-web</v-icon>
-        </v-avatar>
         <h2 class="text-h4 text-md-h3 text-center font-weight-black mb-7">
-          大阪 布施 のダンススタジオ
+          DANCE STUDIO GATE
         </h2>
         <p class="title font-weight-light">
-          ModeVue — is a carefully crafted multi-purpose, responsive, and
-          gorgeous theme. Built with
-          <strong>Vue.js</strong>
-          and
-          <strong>Nuxt.js</strong>, it comes with the features you need to
-          quickly start developing your application.
+          "国内外で活躍する実力派ダンサーや、アーティストPV出演ダンサーが講師を務める、地域密着型本格ストリートダンススタジオが東大阪の布施駅徒歩3分、木村美賞堂ビル3階にOPEN！
+          3歳から大人の方、レベルアップしたい方まで完全バックアップするダンススクールです。
+          SDMさんの「大阪おすすめのダンススクール33選」に掲載していただきました！！
         </p>
       </v-responsive>
 

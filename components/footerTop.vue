@@ -31,9 +31,10 @@
 
                   <v-list-item-content>
                     <v-list-item-title>ADDRESS</v-list-item-title>
-                    <v-list-item-subtitle
-                      >1400 Main Street, Orlando, FL 79938</v-list-item-subtitle
-                    >
+                    <v-list-item-subtitle>
+                      〒577-0841 大阪府東大阪市足代１丁目１３−７
+                      木村美賞堂ビル3階
+                    </v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
                 <v-divider></v-divider>
@@ -107,29 +108,9 @@ export default {
     return {
       social: [
         {
-          platform: 'Facebook',
-          link: 'https://www.facebook.com/',
-          icon: 'mdi-facebook',
-        },
-        {
-          platform: 'Twitter',
-          link: 'https://twitter.com/',
-          icon: 'mdi-twitter',
-        },
-        {
           platform: 'Instagram',
-          link: 'https://www.instagram.com/',
+          link: 'https://www.instagram.com/dance_studio_ink/',
           icon: 'mdi-instagram',
-        },
-        {
-          platform: 'Linkedin',
-          link: 'https://www.linkedin.com/',
-          icon: 'mdi-linkedin',
-        },
-        {
-          platform: 'Github',
-          link: 'https://modevue.staticdesigner.com/',
-          icon: 'mdi-github',
         },
       ],
     }

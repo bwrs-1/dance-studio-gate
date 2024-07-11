@@ -18,7 +18,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'ModeVue — is a carefully crafted multi-purpose, responsive, and gorgeous theme. Built with Vue.js and Nuxt.js, it comes with the features you need to quickly start developing your application.',
+          'DANCE STUDIO GATE',
       },
     ],
     link: [
@@ -113,9 +113,9 @@ export default {
   generate: {
     routes: [
       '/about',
+      '/instructor',
       '/pricing',
       '/contact',
-      '/blog',
       '/gallery',
     ]
   }
